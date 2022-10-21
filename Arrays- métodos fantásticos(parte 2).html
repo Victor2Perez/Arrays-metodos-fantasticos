@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays e seus métodos fantásticos(parte 2)</title>
+</head>
+<body>
+    <script>
+        var a = []
+        var b = []
+
+        for(var i = 0; i<= 11 ;i++){
+            valor = parseInt(prompt('Informe um número'));
+            
+        
+            if(valor<50){
+                a.push(valor);
+            }
+            else{
+                b.push(valor);
+            }
+        }
+        document.write('<h1>Exercício para ler 12 números</h1>');
+    document.write('<p><h3>Os números informados maiores que 50 foram:</p><strong>'+ a + '</h3></strong>');
+    document.write('<p><h3>E os números informados menores que 50 foram:</p><strong>' + b + '</h3></strong>')
+
+    </script>
+</body>
+</html>
